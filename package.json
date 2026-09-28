@@ -1,0 +1,17 @@
+{
+  "name": "borozdov-masthead",
+  "private": true,
+  "description": "A premium magazine spread on warm cream: a sharp serif display, an espresso masthead over the tabs, square white cards and orange strokes only.",
+  "license": "MIT",
+  "scripts": {
+    "fonts": "python3 scripts/embed-fonts.py",
+    "lint": "stylelint theme.css",
+    "build": "node scripts/build.mjs",
+    "screenshots": "python3 scripts/screenshots.py"
+  },
+  "devDependencies": {
+    "lucide-static": "^1.47.0",
+    "stylelint": "^17.0.0",
+    "stylelint-config-obsidianmd": "^0.1.0"
+  }
+}
